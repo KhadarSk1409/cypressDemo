@@ -2,7 +2,7 @@ import testData from '../fixtures/testData.json' //Importing Json and assigning 
 
 describe('DATA DRIVEN DEMO TEST', ()=>{
 
-    //Before Hook
+    //Before Hook will execute before the tests starts
     before('Implementing Before Hook', ()=>{
         cy.log('Application is about to launch');
 
