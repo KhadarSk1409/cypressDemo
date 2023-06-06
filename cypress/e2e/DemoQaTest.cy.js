@@ -20,7 +20,7 @@ describe('Cypress Practice on a Demo QA Website', ()=>{
         //Verify the login page title by using assert and withut JQuery object
         cy.get('h1').then((headerEle)=>{
             assert.equal(headerEle.text().trim(), 'Logged In Successfully');
-        }) 
+        });
 
         cy.get('.post-content').should('contain.text', 'Congratulations student. You successfully logged in!');  //Successfull login
        

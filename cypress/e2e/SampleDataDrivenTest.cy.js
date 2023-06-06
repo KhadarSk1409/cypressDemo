@@ -9,9 +9,9 @@ describe('DATA DRIVEN DEMO TEST', ()=>{
     })
 
     beforeEach('Navigating to the application', ()=>{
-        cy.visit(testData.url);
-        cy.get('input[type="text"]').type(testData.userName); //Getting the username from json file
-        cy.get('input[type="password"]').type(testData.password); //Getting the password from json file
+        cy.visit(testData[0].url);
+        cy.get('input[type="text"]').type(testData[0].userName); //Getting the username from json file
+        cy.get('input[type="password"]').type(testData[0].password); //Getting the password from json file
         cy.get('#log-in').click();
     })
        
