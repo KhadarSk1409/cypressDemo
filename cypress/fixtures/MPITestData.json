@@ -1,5 +1,15 @@
 {
     "url": "http://183.82.7.112:4200/pages/login",
     "userName": "krish@gmail.com",
-    "password": "Design_20"
+    "password": "Design_20",
+
+    "Fname": "Sk",
+    "Lname": "Khadar",
+    "Uname": "KhadarSk",
+    "Pswd": "Test@123",
+    "ConfirmPswd": "Test@123",
+    "Email": "Test@gmail.com",
+    "EmployeeId": "TI_135",
+    "ContactNum": "7013441844",
+    "Address": "15-158 Sanath Nagar, Hyderabad, Telangana 500018"
 }
