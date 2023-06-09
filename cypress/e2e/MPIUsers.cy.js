@@ -29,8 +29,18 @@ describe('Verify MPI Users Page and the User Table', ()=>{
                 //Number of columns
                 const colCount = $col.length;
                 cy.log("The total columns in the table are: " +colCount);
+           
+                //Get a cell text
+                cy.get("tbody tr:nth-child(4) td:nth-child(2)").then(($cell) => {
+        
+                const cellValue = $cell.text();
+                cy.log("The last name of the selected cell is: " +cellValue);
+
+        
+                })
+                
             })
-    
+
     })
 
 })

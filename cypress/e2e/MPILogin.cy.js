@@ -1,5 +1,4 @@
 
-import testData from '../fixtures/MPITestData.json'
 import MPILoginPage from '../pages/MPILoginPage';
 
 describe('MPI Login', ()=>{
