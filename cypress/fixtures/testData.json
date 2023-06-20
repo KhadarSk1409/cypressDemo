@@ -1,0 +1,11 @@
+[{
+    "userName": "username",
+    "password": "password",
+    "url": "https://demo.applitools.com/"
+  },
+  {
+      "url":"https://itera-qa.azurewebsites.net/home/automation"
+  },
+{
+     "url":"https://register.rediff.com/register/register.php"
+}]
